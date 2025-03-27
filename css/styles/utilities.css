@@ -1,0 +1,101 @@
+/* Utility Classes */
+
+/* Text Colors */
+.text-primary {
+  color: #2563eb;
+}
+
+.text-dark {
+  color: #475569;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Text Alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Margins */
+.m-0 {
+  margin: 0;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+/* Padding */
+.p-0 {
+  padding: 0;
+}
+
+/* Display */
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+/* Line Height */
+.lh-normal {
+  line-height: 1.5;
+}
+
+.lh-large {
+  line-height: 1.75;
+}
+
+/* Font Weights */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+/* Font Sizes */
+.fs-sm {
+  font-size: 14px;
+}
+
+.fs-base {
+  font-size: 16px;
+}
+
+.fs-lg {
+  font-size: 18px;
+}
+
+.fs-xl {
+  font-size: 20px;
+}
+
+.fs-2xl {
+  font-size: 24px;
+}
+
+.fs-3xl {
+  font-size: 32px;
+}

@@ -1,0 +1,41 @@
+/* Font Styles */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZhz35Sls8bkSAO-LbJ8GF4Gj2hsO7B_RmlJPqOM_YU22EFwz1KiF41aLgT10zzmFkyJxDQqTgHwL4JJNmRa-UTZoKDKZWwXCNnLkLgAYyvSYK-86eo&skey=c491285d6722e4fa&v=v18) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZhz35Sls8bkSAO-LbJ8GF4Gj2hsO7B_RmlJPqOM_YU22EFwz1KiF41aLgT10zzmFkyJxDQqTgHwL4JJNmRa-UTZoKDKZWwXCNnLkLgAYyvSYK-86eo&skey=c491285d6722e4fa&v=v18) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZhz35Sls8bkSAO-LbJ8GF4Gj2hsO7B_RmlJPqOM_YU22EFwz1KiF41aLgT10zzmFkyJxDQqTgHwL4JJNmRa-UTZoKDKZWwXCNnLkLgAYyvSYK-86eo&skey=c491285d6722e4fa&v=v18) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZhz35Sls8bkSAO-LbJ8GF4Gj2hsO7B_RmlJPqOM_YU22EFwz1KiF41aLgT10zzmFkyJxDQqTgHwL4JJNmRa-UTZoKDKZWwXCNnLkLgAYyvSYK-86eo&skey=c491285d6722e4fa&v=v18) format('truetype');
+}
+
+/* Font Family Utilities */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-satoshi {
+  font-family: 'Satoshi', sans-serif;
+}

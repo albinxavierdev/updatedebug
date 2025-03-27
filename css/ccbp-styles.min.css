@@ -1,0 +1,49 @@
+/* This is a local copy of the CSS styles previously loaded from cdn.prod.website-files.com */
+/* Minimized CSS content would go here */
+/* Basic styling to maintain functionality */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.track-button * {
+  pointer-events: none;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.request-call-back-button * {
+  pointer-events: none;
+}
+
+.arrow-buttons * {
+  pointer-events: none;
+}
+
+/* Slider styles */
+.w-slider-dot {
+  font-size: 6px;
+  border-radius: 3px;
+  background: #CBD5E1;
+}
+
+.w-slider-dot.w-active {
+  width: 18px;
+  height: 6px;
+  background: #64748B;
+  border-radius: 3px;
+}
+
+/* Add more styles as needed to maintain website functionality */

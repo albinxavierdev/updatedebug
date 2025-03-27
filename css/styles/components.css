@@ -1,0 +1,79 @@
+/* Component Styles */
+.rich-text-content p {
+  color: #475569;
+  text-align: left;
+  margin-bottom: 16px;
+  font-family: "Inter 400", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.banner-desc-x {
+  padding: 0px;
+}
+
+.rich-text-content .banner-desc {
+  color: #fff;
+  text-align: left;
+  max-width: 498px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-family: Satoshi, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  padding: 0px;
+}
+
+.rich-text-content blockquote {
+  color: #475569;
+  text-align: left;
+  border-left: 5px solid #e2e2e2;
+  margin-bottom: 16px;
+  font-family: "Inter 400", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.rich-text-content .ctaxheadingonev1 {
+  color: #fff;
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Inter 600", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 479px) {
+  .rich-text-content p,
+  .rich-text-content blockquote {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .rich-text-content a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .rich-text-content h3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .rich-text-content h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .rich-text-content ol,
+  .rich-text-content ul {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
