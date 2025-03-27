@@ -722,23 +722,52 @@
       </div>
    </section>
    <section id="Hiring-companies-section" class="hiring-companies-section">
+    
+      <!-- Courses logo -->
       <div class="div-block-1557">
          <div class="div-block-867-copy-2">
-            <h2 class="intensive-hire mentor"><span class="text-span-90">2000+</span> Companies have hired NxtWave <span
-                  class="text-span-1598"><strong>R </strong></span>learners</h2>
+           <h2 class="intensive-hire mentor">
+             <span class="text-span-90">2000+</span> Companies have hired NxtWave
+             <span class="text-span-1598"><strong>R</strong></span> learners
+           </h2>
          </div>
-         <div class="div-block-1849">
-            <div class="html-embed-48 w-embed"><img
-                  src='https://nxtwave.imgix.net/ccbp-website/intensive/companies-hiring-section/hiring-companies-desktop.png'
-                  alt='Companies Hired Trained Developers' width='100%' loading='lazy' /></div>
-         </div>
-         <div class="mobile-logos">
-            <div class="w-embed"><img
-                  src='https://nxtwave.imgix.net/ccbp-website/intensive/companies-hiring-section/hiring-companies-mobile.png'
-                  alt='Companies Hired Nxtwave Developers' width='100%' loading='lazy' /></div>
-         </div>
+     
+         <!-- Dynamic Company Logos Section -->
+         <div id="companies-table" class="companies-table"></div>
+     
          <div class="text-block-794">and many more...</div>
-      </div>
+       </div>
+       <style>
+         .companies-table {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+           gap: 10px;
+           padding: 20px;
+         }
+     
+         .company-logo {
+           max-width: 200px;
+           height: auto;
+           flex: 1 1 calc(25% - 20px);
+         }
+     
+         @media (max-width: 768px) {
+           .company-logo {
+             flex: 1 1 calc(50% - 10px);
+           }
+         }
+     
+         @media (max-width: 480px) {
+           .company-logo {
+             flex: 1 1 calc(100% - 10px);
+           }
+         }
+       </style>
+
+      <script src="./js/logo.js"></script>
+      <!-- Courses logo end-->
       <div class="view-all-companies-ctas-div"><a id="request-call-back-home-350-companies"
             href="https://forms.ccbp.in/public/form/talk-to-career-expert"
             class="request-call-back-home track-button request-a-callback-segment rcb w-inline-block">
@@ -856,6 +885,7 @@
          </div>
       </div>
    </section>
+
    <div class="national-level-recognision-section">
       <div class="national-level-recognision-container">
          <div class="text-68"><span class="national-level-recognition-for-nxtwave-students-0">National Level
