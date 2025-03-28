@@ -694,20 +694,76 @@
 </section>
 
    
+   
+
+
    <section id="Home-page-alumni-of" class="home-page-alumni-of logos new-copy intensive-alumni-of">
       <div class="learn-the-best-section w-container">
          <div class="best-alumni-div">
             <h4 class="heading-364">LEARN THE BEST FROM THE ALUMNI OF</h4>
-            <div class="html-embed-13 w-embed"><img
-                  src='https://nxtwave.imgix.net/ccbp-website/intensive/learn-the-best-from-the-alumni/Alumni_2x.png'
-                  alt='learn from best alumni' width='100%' loading='lazy' /></div>
-            <div class="html-embed-14 w-embed"><img
-                  src='https://nxtwave.imgix.net/ccbp-website/intensive/learn-the-best-from-the-alumni/alumni-mobile.png'
-                  alt='' width='100%' loading='lazy' /></div>
+            <div id="alumniGridContainer" class="alumni-grid"></div>
             <p class="home-many-more">and many more...</p>
          </div>
       </div>
    </section>
+   
+   <style>
+      .alumni-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+         gap: 20px;
+         justify-content: center;
+         align-items: center;
+         padding: 20px;
+      }
+   
+      .alumni-item {
+         background: #fff; /* Optional: Background color */
+         padding: 10px;
+         border-radius: 10px; /* Optional: Rounded corners */
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+         text-align: center;
+      }
+   
+      .alumni-item img {
+         width: 100%;
+         height: auto;
+         border-radius: 8px; /* Optional: Rounded image corners */
+      }
+   </style>
+   
+   <script>
+      // Array of image URLs
+      const alumniImages = [
+         './images/Recognized/1.png',
+         './images/Recognized/2.png',
+         './images/Recognized/3.png',
+         './images/Recognized/4.png',
+      ];
+   
+      // Select the container where image divs will be added
+      const alumniGridContainer = document.getElementById('alumniGridContainer');
+   
+      // Function to add images inside divs dynamically
+      function addImages() {
+         alumniImages.forEach(imageSrc => {
+            const divElement = document.createElement('div');
+            divElement.classList.add('alumni-item'); // Add class for styling
+   
+            const imgElement = document.createElement('img');
+            imgElement.src = imageSrc;
+            imgElement.alt = 'Alumni Image';
+            imgElement.loading = 'lazy'; // Lazy load for performance
+   
+            divElement.appendChild(imgElement);
+            alumniGridContainer.appendChild(divElement);
+         });
+      }
+   
+      // Call function to add images on page load
+      addImages();
+   </script>
+   
    <section id="Home-page-recognised-by" class="home-page-recognised-by">
       <div class="div-block-1865">
          <div class="text-block-822">Recognised by</div>
